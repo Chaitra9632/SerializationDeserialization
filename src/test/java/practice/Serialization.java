@@ -17,6 +17,8 @@ public class Serialization {
 		
 		ObjectMapper obj = new ObjectMapper();
 		obj.writeValue(new File("./Sample.json"), emp);
+		System.out.println("FIRST TEST COMMIT");
+		System.out.println("F TEST COMMIT");
 	}
 
 }
